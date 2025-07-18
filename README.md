@@ -11,7 +11,7 @@ ___
 
 ```bash
 git clone https://github.com/luizradiskegit/lfr_case.git
-cd case_luiz_radiske
+cd lfr_case
 ```
 
 2. **Suba os containers**:
