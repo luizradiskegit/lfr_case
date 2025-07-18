@@ -1,0 +1,6 @@
+nome_associado,sobrenome_associado,idade_associado,vlr_transacao_movimento,des_transacao_movimento,data_movimento,numero_cartao,nome_impresso_cartao,tipo_conta,data_criacao_conta
+Luiz,Radiske,34,120.50,Supermercado,2023-06-01T12:30:00.000Z,4111111111111111,LUIZ RADISKE,Corrente,2025-07-16T10:00:00.000Z
+Bruno,Souza,18,75.00,Posto de gasolina,2023-06-02T09:15:00.000Z,4222222222222222,BRUNO SOUZA,Poupanca,2023-02-20T11:30:00.000Z
+Carlos,Oliveira,35,200.00,Mc Donalds,2023-06-03T16:00:00.000Z,4333333333333333,CARLOS OLIVEIRA,Corrente,2023-03-10T09:45:00.000Z
+Daniela,Costa,26,45.75,Ifood,2023-06-04T20:45:00.000Z,4444444444444444,DANIELA COSTA,Poupanca,2023-04-05T14:20:00.000Z
+Ana,Silva,22,310.90,Kabum,2023-06-05T11:20:00.000Z,4555555555555555,ANA SILVA,Corrente,2023-05-01T08:15:00.000Z

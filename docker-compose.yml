@@ -1,0 +1,28 @@
+services:
+  spark:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: spark-etl-custom
+    container_name: spark-etl
+    volumes:
+      - ./notebooks:/opt/spark/notebooks
+      - ./scripts/sql:/opt/spark/scripts/sql
+      - ./data:/opt/spark/data
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:13
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: db_case_luiz_radiske
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 123123123
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./scripts/sql:/docker-entrypoint-initdb.d
