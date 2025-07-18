@@ -10,7 +10,7 @@ ___
 1. **Clone o repositorio**:
 
 ```bash
-git clone https://github.com/luizradiskegit/case_luiz_radiske.git
+git clone https://github.com/luizradiskegit/lfr_case.git
 cd case_luiz_radiske
 ```
 
